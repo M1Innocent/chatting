@@ -1,0 +1,13 @@
+.right_container {
+  /* background: rgb(77, 74, 74); */
+  position: absolute;
+  right: 8px;
+  width: 250px;
+  margin-top: 8px;
+  padding: 5px 5px 5px 5px;
+  height: 100%;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

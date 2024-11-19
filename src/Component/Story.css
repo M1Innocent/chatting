@@ -1,0 +1,35 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /* background: rgb(88, 87, 87); */
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.story .title {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+}
+.story .desc {
+  padding-left: 10px;
+}
+.story .title img {
+  width: 40px;
+  height: 43px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+.story .button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
+.story .button input {
+  /* width: 70px; */
+  /* height: 30px; */
+  font-weight: 700;
+  padding: 10px;
+}
